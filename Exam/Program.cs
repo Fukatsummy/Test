@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exam
+namespace ExamConsole
 {
     internal class Program
     {
@@ -83,7 +83,7 @@ namespace Exam
 
     interface ResultTable   //мой
     {
-        public string Name { get; set; }//Имя игрока
+        public string Name { get; set; }//Имя викторины
         IMyXmlFile XmlFile { get; set; }//файл 
         List<TableItem> TableItems { get; set; }// таблица списком
         public string Path { get; set; }//путь
